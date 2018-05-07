@@ -1,0 +1,23 @@
+{
+    "name": "Artemis",
+    "version": "1.0",
+    "description": "An extension that keeps you focused on your health",
+    "background": {
+      "scripts": ["block.js"],
+      "persistent": true
+    },
+    "permissions": [
+       "webRequest",
+       "webRequestBlocking",
+       "storage",
+       "*://www.facebook.com/*",
+       "*://www.youtube.com/*",
+       "*://www.twitter.com/*",
+       "*://www.instagram.com/*"
+   ],
+   "options_ui": {
+    "page": "options.html",
+    "open_in_tab": false
+  },
+    "manifest_version": 2
+  }
